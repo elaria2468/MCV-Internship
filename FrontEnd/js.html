@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Sentence Generator</title>
+</head>
+<body>
+  <h2>Press here</h2>
+  
+  <button onclick="showRandomSentence()">عرض جملة</button>
+  <p id="output"></p>
+
+  <script>
+    // Array فيه الجمل
+    const sentences = [
+      "اFlower🌸",
+      "Idea💡",
+      "لDone✅",
+      "Happienes ✨",
+      "Be Kind😊"
+    ];
+
+    function showRandomSentence() {
+      // نختار رقم عشوائي من 0 لحد طول ال array - 1
+      const randomIndex = Math.floor(Math.random() * sentences.length);
+      // نعرض الجملة في ال <p>
+      document.getElementById("output").textContent = sentences[randomIndex];
+      
+    }
+  </script>
+</body>
+</html>

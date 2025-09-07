@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Hotel Reservation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f4f6f9;
+    }
+    .sidebar {
+      height: 100vh;
+      background-color: #343a40;
+      color: white;
+      padding-top: 20px;
+    }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+    }
+    .sidebar a:hover {
+      background-color: #495057;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-2 sidebar">
+        <h4 class="text-center">Admin Panel</h4>
+        <a href="#" onclick="loadPage('dashboard')">🏠 Dashboard</a>
+        <a href="#" onclick="loadPage('hotels')">🏨 Hotels</a>
+        <a href="#" onclick="loadPage('rooms')">🛏 Rooms</a>
+        <a href="#" onclick="loadPage('bookings')">📑 Bookings</a>
+        <a href="#" onclick="loadPage('inventory')">📦 Inventory</a>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-10 p-4">
+        <div id="content">
+          <h2>Welcome, Admin 👋</h2>
+          <p>Select an option from the sidebar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Switch content dynamically
+    function loadPage(page) {
+      let content = document.getElementById('content');
+      if (page === 'dashboard') {
+        content.innerHTML = `
+          <h2>📊 Dashboard</h2>
+          <p>Here you can see pending reservations and statistics.</p>
+        `;
+      } else if (page === 'hotels') {
+        content.innerHTML = `
+          <h2>🏨 Manage Hotels</h2>
+          <button class="btn btn-primary mb-2">+ Add Hotel</button>
+          <table class="table table-bordered">
+            <thead><tr><th>ID</th><th>Name</th><th>City</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Hotel Nile</td><td>Cairo</td>
+                <td>
+                  <button class="btn btn-warning btn-sm">Edit</button>
+                  <button class="btn btn-danger btn-sm">Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        `;
+      } else if (page === 'rooms') {
+        content.innerHTML = `
+          <h2>🛏 Manage Rooms</h2>
+          <button class="btn btn-primary mb-2">+ Add Room</button>
+        `;
+      } else if (page === 'bookings') {
+        content.innerHTML = `
+          <h2>📑 Manage Bookings</h2>
+          <table class="table table-bordered">
+            <thead><tr><th>ID</th><th>User</th><th>Hotel</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td>10</td><td>Ahmed</td><td>Hotel Nile</td><td>Pending</td>
+                <td>
+                  <button class="btn btn-success btn-sm">Confirm</button>
+                  <button class="btn btn-danger btn-sm">Reject</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        `;
+      } else if (page === 'inventory') {
+        content.innerHTML = `
+          <h2>📦 Manage Room Inventory</h2>
+          <p>Update available rooms per date.</p>
+        `;
+      }
+    }
+  </script>
+</body>
+</html>

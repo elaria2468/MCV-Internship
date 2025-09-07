@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch Todos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    #todo-list {
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .todo {
+      background: white;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .status {
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      color: white;
+    }
+
+    .pending {
+      background: #ffc107;
+    }
+
+    .done {
+      background: #28a745;
+    }
+  </style>
+</head>
+<body>
+  <h2>Fetch Todos 📋</h2>
+  <button onclick="loadTodos()">Load Todos</button>
+  <div id="todo-list"></div>
+
+  <script>
+    function loadTodos() {
+      fetch('https://jsonplaceholder.typicode.com/todos?_limit=10') 
+        .then(response => response.json())
+        .then(todos => {
+          const list = document.getElementById("todo-list");
+          list.innerHTML = ""; // يمسح القديم قبل العرض
+          todos.forEach(todo => {
+            const div = document.createElement("div");
+            div.className = "todo";
+            div.innerHTML = `
+              <span>${todo.title}</span>
+              <span class="status ${todo.completed ? 'done' : 'pending'}">
+                ${todo.completed ? 'Done' : 'Pending'}
+              </span>
+            `;
+            list.appendChild(div);
+          });
+        })
+        .catch(err => console.error("Error:", err));
+    }
+  </script>
+</body>
+</html>

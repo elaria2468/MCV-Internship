@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Launch</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to top, #001d3d, #003566);
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    #rocket {
+      font-size: 80px;
+      position: relative;
+      bottom: 0;
+      transition: transform 2s linear;
+    }
+
+    /* الكلاس اللي يضيف الانيميشن */
+    .launch {
+      animation: flyUp 3s linear forwards;
+    }
+
+    @keyframes flyUp {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-100vh);
+      }
+    }
+
+    button {
+      margin: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #ffbe0b;
+      color: #000;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #fb5607;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="rocket">🚀</div>
+  <button onclick="launchRocket()">Launch</button>
+
+  <script>
+    function launchRocket() {
+      const rocket = document.getElementById("rocket");
+      rocket.classList.remove("launch"); // علشان تقدر تعيد التشغيل
+      void rocket.offsetWidth; // Trick لإعادة تشغيل الانيميشن
+      rocket.classList.add("launch");
+    }
+  </script>
+</body>
+</html>

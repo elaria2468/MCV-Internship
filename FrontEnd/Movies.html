@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎬 Trending Movies</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+    }
+
+    .card {
+      border: none;
+      overflow: hidden;
+      position: relative;
+      transition: transform 0.3s ease;
+      border-radius: 15px;
+      background-color: transparent;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card-img-top {
+      height: 380px;
+      object-fit: cover;
+      filter: brightness(0.8);
+    }
+
+    .card-body {
+      position: absolute;
+      bottom: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
+      width: 100%;
+      padding: 20px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+      color: #ccc;
+      max-height: 70px;
+      overflow: hidden;
+    }
+
+    .rating {
+      background-color: #ffc107;
+      color: #000;
+      font-weight: bold;
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      margin-top: 10px;
+      width: fit-content;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-5">🎥 Trending Movies</h1>
+    <div id="movies" class="row g-4">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const API_KEY = "30b1e5bf92cbeb22c4a9d2972b802bdb";
+
+
+    const API_URL = `https://api.themoviedb.org/3/trending/movie/week?api_key=${API_KEY}&language=en-US`;
+
+    const IMG_BASE_URL = "https://image.tmdb.org/t/p/w500";
+
+    fetch(API_URL,{headers:{}})
+      .then(response => response.json())
+      .then(data => {
+        const moviesDiv = document.getElementById("movies");
+
+        data.results.forEach(movie => {
+          const col = document.createElement("div");
+          col.classList.add("col-md-3");
+
+          col.innerHTML = `
+            <div class="card h-100 shadow-sm">
+              <img src="${IMG_BASE_URL + movie.poster_path}" 
+                   class="card-img-top" 
+                   alt="${movie.title}" />
+              <div class="card-body">
+                <h5 class="card-title">${movie.title}</h5>
+                <p class="card-text">${movie.overview || "No description available."}</p>
+                <span class="rating">⭐ ${movie.vote_average.toFixed(1)}</span>
+              </div>
+            </div>
+          `;
+          moviesDiv.appendChild(col);
+        });
+      })
+      .catch(error => console.error("Error fetching movies:", error));
+  </script>
+</body>
+</html>

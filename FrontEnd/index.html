@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Sticky Notes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* الشريط العلوي */
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    /* note style */
+    .note {
+      width: 120px;
+      height: 120px;
+      background-color: #f9f68a;
+      padding: 10px;
+      margin: 10px;
+      position: absolute;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .note1 { top: 50px; left: 30px; z-index: 1; }
+    .note2 { top: 120px; left: 100px; z-index: 2; }
+    .note3 { top: 220px; left: 50px; z-index: 3; }
+
+    /* زر help ثابت */
+    .help-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">My Sticky Notes</div>
+
+  <div class="note note1"></div>
+  <div class="note note2">Meeting @ 4</div>
+  <div class="note note3">Fix Bug</div>
+
+  <button class="help-btn">Help</button>
+</body>
+</html>

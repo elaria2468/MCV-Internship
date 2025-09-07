@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotoFolio</title>
+  <style>
+    body {
+        
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: black;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0f0;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li {
+      margin: 0 15px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .navbar ul li a:hover {
+      color: #0f0;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 100px 20px 50px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+    }
+
+    .hero h1 span {
+      color: #0f0;
+    }
+
+    .hero p {
+      margin-top: 15px;
+      color: #aaa;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #0f0;
+      border: none;
+      color: black;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background: #00cc00;
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      border-top: 1px solid #222;
+    }
+
+    .footer p {
+      margin: 10px 0;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .social-icons a:hover {
+      color: #0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">PhotoFolio</div>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">GALLERY</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>I'm <span>Jenny Wilson</span> a Professional Photographer from New York City</h1>
+    <p>Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero.</p>
+    <button>AVAILABLE FOR HIRE</button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery">
+    <img src="https://picsum.photos/id/1015/600/400" alt="img1">
+    <img src="https://picsum.photos/id/1025/600/400" alt="img2">
+    <img src="https://picsum.photos/id/1035/600/400" alt="img3">
+    <img src="https://picsum.photos/id/1045/600/400" alt="img4">
+    <img src="https://picsum.photos/id/1055/600/400" alt="img5">
+    <img src="https://picsum.photos/id/1065/600/400" alt="img6">
+    <img src="https://picsum.photos/id/1075/600/400" alt="img7">
+    <img src="https://picsum.photos/id/1085/600/400" alt="img8">
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© Copyright <b>PhotoFolio</b> All Rights Reserved</p>
+    <div class="social-icons">
+      <a href="#">🌐</a>
+      <a href="#">📘</a>
+      <a href="#">📸</a>
+      <a href="#">💼</a>
+    </div>
+    <p>Designed by BootstrapMade</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>إشارة بسيطة</title>
+<style>
+  body{
+    margin:0; min-height:100vh; display:grid; place-items:center;
+    background:#f2f2f2; font-family:Arial, sans-serif;
+  }
+  .element{
+  /* المستطيل الأسود */
+  .traffic{
+    background:#000;
+    width:140px;
+    padding:16px;
+    border-radius:16px;
+    display:flex;
+    flex-direction:column;     /* عمودي */
+    gap:14px;                  /* مسافة بين الدواير */
+    box-shadow:0 10px 25px #0003;
+  }
+
+  /* الدوائر */
+  .light{
+    width:90px; height:90px;
+    margin:auto;
+    border-radius:50%;
+  }
+  .red{    background:#e11212; }
+  .yellow{ background:#f4c20d; }
+  .green{  background:#16a34a; }
+}
+
+  @media screen and (max-width: 600px) {
+  .element {
+    font-size: 30px;
+  }
+  }
+</style>
+</head>
+<body>
+
+  <div class="traffic">
+    <div class="light red"></div>
+    <div class="light yellow"></div>
+    <div class="light green"></div>
+  </div>
+ 
+
+
+</body>
+</html>

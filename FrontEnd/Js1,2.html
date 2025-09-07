@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Sentence Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      color: #333;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+      background: #ff7eb3;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background: #ff5277;
+      transform: scale(1.05);
+    }
+
+    #output {
+      margin-top: 30px;
+      font-size: 26px;
+      font-weight: bold;
+      min-height: 40px;
+      transition: opacity 0.5s ease;
+      opacity: 0;
+    }
+
+    #output.show {
+      opacity: 1;
+    }
+
+    .loading {
+      font-size: 18px;
+      color: #444;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>✨ Press here , Please ✨</h2>
+  
+  <button onclick="showRandomSentence()">Show Sentence</button>
+  <p id="loading" class="loading"></p>
+  <p id="output"></p>
+
+  <script>
+    const sentences = [
+      "🌸 Flower",
+      "💡 Idea",
+      "✅ Done",
+      "✨ Happiness",
+      "😊 Be Kind"
+    ];
+
+    function showRandomSentence() {
+      const output = document.getElementById("output");
+      const loading = document.getElementById("loading");
+
+      // نفضي النصوص
+      output.textContent = "";
+      output.classList.remove("show");
+      loading.textContent = "⏳ Loading...";
+
+      // بعد 3 ثواني نعرض الجملة
+      setTimeout(() => {
+        const randomIndex = Math.floor(Math.random() * sentences.length);
+        output.textContent = sentences[randomIndex];
+        output.classList.add("show");
+        loading.textContent = "";
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
