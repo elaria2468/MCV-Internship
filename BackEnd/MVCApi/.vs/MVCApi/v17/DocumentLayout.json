@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\MVCApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\AppData\\Local\\Temp\\ab7edd04-82ab-49fb-825f-5bc6e2231f4b_Hotel Reservation.zip.f4b\\Hotel Reservation\\css\\all.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\ConsoleApp1\\Entity Framwork\\Entity Framwork\\Entity Framwork.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\mvcapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\mvcapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|c:\\users\\pc\\source\\repos\\mvcapi\\mvcapi\\migrations\\20250828120814_addcategoriesanditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997E3A6F-EF7A-4687-BEE5-873FE9C8D5EE}|MVCApi\\MVCApi.csproj|solutionrelative:mvcapi\\migrations\\20250828120814_addcategoriesanditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "all.css",
+              "DocumentMoniker": "C:\\Users\\pc\\AppData\\Local\\Temp\\ab7edd04-82ab-49fb-825f-5bc6e2231f4b_Hotel Reservation.zip.f4b\\Hotel Reservation\\css\\all.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\ab7edd04-82ab-49fb-825f-5bc6e2231f4b_Hotel Reservation.zip.f4b\\Hotel Reservation\\css\\all.css",
+              "ToolTip": "C:\\Users\\pc\\AppData\\Local\\Temp\\ab7edd04-82ab-49fb-825f-5bc6e2231f4b_Hotel Reservation.zip.f4b\\Hotel Reservation\\css\\all.css [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\ab7edd04-82ab-49fb-825f-5bc6e2231f4b_Hotel Reservation.zip.f4b\\Hotel Reservation\\css\\all.css [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-07T07:18:35.755Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity Framwork.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ConsoleApp1\\Entity Framwork\\Entity Framwork\\Entity Framwork.csproj",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Entity Framwork\\Entity Framwork\\Entity Framwork.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ConsoleApp1\\Entity Framwork\\Entity Framwork\\Entity Framwork.csproj",
+              "RelativeToolTip": "..\\ConsoleApp1\\Entity Framwork\\Entity Framwork\\Entity Framwork.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T07:04:31.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MVCApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T10:23:14.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "MVCApi\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:11:17.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250828120814_AddCategoriesAndItems.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Migrations\\20250828120814_AddCategoriesAndItems.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Migrations\\20250828120814_AddCategoriesAndItems.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Migrations\\20250828120814_AddCategoriesAndItems.cs",
+              "RelativeToolTip": "MVCApi\\Migrations\\20250828120814_AddCategoriesAndItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:08:20.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Models\\Item.cs",
+              "RelativeToolTip": "MVCApi\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:05:21.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Models\\Category.cs",
+              "RelativeToolTip": "MVCApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:04:18.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MVCApi.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\MVCApi.csproj",
+              "RelativeDocumentMoniker": "MVCApi\\MVCApi.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\MVCApi.csproj",
+              "RelativeToolTip": "MVCApi\\MVCApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T13:09:03.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "MVCApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:43:28.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Program.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Program.cs",
+              "RelativeToolTip": "MVCApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:29:50.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\appsettings.json",
+              "RelativeToolTip": "MVCApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-27T10:28:56.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "MVCApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAApwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:09:26.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MVCApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:28:31.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MVCApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\MVCApi\\MVCApi\\Models\\Product.cs",
+              "RelativeToolTip": "MVCApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:27:26.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

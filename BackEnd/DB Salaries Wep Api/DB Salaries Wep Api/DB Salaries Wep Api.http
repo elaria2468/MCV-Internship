@@ -1,0 +1,6 @@
+@DB_Salaries_Wep_Api_HostAddress = http://localhost:5027
+
+GET {{DB_Salaries_Wep_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
